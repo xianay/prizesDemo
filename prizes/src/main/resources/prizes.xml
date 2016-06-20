@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+	<!-- 双色球 -->
+	<bean id="ssqDSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.ssq.SsqDSAwardProcesser"/>
+	<bean id="ssqFSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.ssq.SsqFSAwardProcesser"/>
+	<bean id="ssqDTAwardProcesser" class="com.tyc.lottery.award.prizes.proc.ssq.SsqDTAwardProcesser"/>
+	<!-- 七乐彩 -->
+	<bean id="qlcDSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.qlc.QlcDSAwardProcesser"/>
+	<bean id="qlcFSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.qlc.QlcFSAwardProcesser"/>
+	<bean id="qlcDTAwardProcesser" class="com.tyc.lottery.award.prizes.proc.qlc.QlcDTAwardProcesser"/>
+	<!-- 3D -->
+	<bean id="d3ZuX6FSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuX6FSAwardProcesser"/>
+	<bean id="d3ZuXTZAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuXTZAwardProcesser"/>
+	<bean id="d3ZXBHAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXBHAwardProcesser"/>
+	<bean id="d3ZXDTAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXDTAwardProcesser"/>
+	<bean id="d3ZXKDAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXKDAwardProcesser"/>
+	<bean id="d3ZXTZAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXTZAwardProcesser"/>
+	<bean id="d3ZuX3FSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuX3FSAwardProcesser"/>
+	<bean id="d3ZuX3KDAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuX3KDAwardProcesser"/>
+	<bean id="d3ZuX6KDAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuX6KDAwardProcesser"/>
+	<bean id="d3ZuXBDanAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuXBDanAwardProcesser"/>
+	<bean id="d3ZuXBDianAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuXBDianAwardProcesser"/>
+	<bean id="d3ZuXDTAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZuXDTAwardProcesser"/>
+	<bean id="d3ZXBCAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXBCAwardProcesser"/>
+	<bean id="d3ZXBDanAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXBDanAwardProcesser"/>
+	<bean id="d3ZXBDianAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXBDianAwardProcesser"/>
+	<bean id="d3ZXFSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXFSAwardProcesser"/>
+	<bean id="d3ZXQZ3AwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXQZ3AwardProcesser"/>
+	<bean id="d3ZXZ6FSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.d3.D3ZXZ6FSAwardProcesser"/>
+	<!-- 快3 -->
+	<bean id="k3HZAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K3HZAwardProcesser"/>
+	<bean id="k33THZXDSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K33THZXDSAwardProcesser"/>
+	<bean id="k32BTHZXAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K32BTHZXAwardProcesser"/>
+	<bean id="k32THZXDSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K32THZXDSAwardProcesser"/>
+	<bean id="k32THZXFSAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K32THZXFSAwardProcesser"/>
+	<bean id="k33BTHZXAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K33BTHZXAwardProcesser"/>
+	<bean id="k33LHTXAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K33LHTXAwardProcesser"/>
+	<bean id="k33THTXAwardProcesser" class="com.tyc.lottery.award.prizes.proc.k3.K33THTXAwardProcesser"/>
+
+</beans>
